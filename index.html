@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name=“description” content="Red Hot Chili Peppers Quiz App: 5 multiple-choice questions to determine your level of fandom.">	
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed" rel="stylesheet">
+	<title>The Red Hot Chili Peppers Quiz App</title>
+</head>
+<body>
+	<navbar role="banner">
+		<div class="nav-logo-wrapper">
+			<img src="images/rhcp-logo.png" class="nav-logo" alt="RHCP-logo">	
+		</div>	
+		<ul class="score-panel">
+			<li><strong>Score</strong>: <span class="score">0</span>/5</li>
+			<li><strong>Question</strong>: <span class="question">0</span>/5</li>
+		</ul>
+	</navbar>
+	
+	<header class="start-quiz">
+		<button class="start">START</button>
+	</header>	
+	
+	<div class="quiz"></div>
+
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous" />
+	</script>
+	<script src="store.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
